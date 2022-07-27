@@ -1,0 +1,211 @@
+.d-flex{
+    display: flex;
+}
+.algn-items-center{
+    align-items: center;
+}
+.jus-con-spa-btwn{
+    justify-content: space-between;
+}
+/* *{
+    font-family: 'Roboto Serif', serif;
+} */     
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 0 0.75rem;
+
+}
+
+
+
+/* NAVIGATION BAR */
+
+.navigation{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+.nav-logo{
+    color:#fff;
+}
+.nav-logo h1{
+    line-height: 1;
+    font-weight: 700;
+    font-size: 28px;
+}
+.nav-nav ul{
+    display: none;
+}
+.icofont-navigation-menu{
+    display: inline-block;
+    line-height: 1;
+}
+.mobile-toogle{
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media(min-width:540px){
+    .navigation{
+        width: 100%;
+        margin: auto;
+        height:80px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    
+}
+@media(min-width:768px){
+    .navigation{
+        width: 100%;
+        margin: auto;
+        height:80px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+}
+@media(min-width:992px){
+    .container{
+        width:992px;
+        margin: auto;
+        padding: 0 0.75rem;
+    
+    }
+    .navigation{
+        width: 100%;
+        margin: auto;
+        height:80px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    .nav-nav ul{
+        display: inline-block;
+    }
+    .mobile-toogle{
+        display: none;
+    }
+    .nav-nav ul{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    } 
+    .nav-nav ul a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+@media(min-width:1200px){
+    .navigation{
+        width: 100%;
+        margin: auto;
+        height:80px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    .nav-nav ul{
+        display: block;
+    }
+    .mobile-toogle{
+        display: none;
+    }
+    .nav-nav ul{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    } 
+    .nav-nav ul a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+/* HOME */
+.home{
+    width: 100%;
+    margin: auto;
+}
+.image-container{
+    width: 100%;
+    height: 758px;
+    background-image: url(../../Source/groovin-front.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.home-content-left,.home-content-right{
+    padding-top: 160px;
+
+}
+.home-content-left span,.home-content-right span{
+    color: #fff;
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    font-size: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+}
+.icofont-rounded-right, .icofont-rounded-left{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home-content-middle{
+    width: 80%;
+}
+.home-content-middle h2{
+    color: #fff;
+    padding-top: 160px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "Open Sans", sans-serif; 
+}
+.home-content-middle p{
+    font-family: "Open Sans", sans-serif; 
+    margin:0 auto 30px;
+    color: #fff;
+    line-height: 24px;
+}
+
+
+/* ABOUT */
+/* PORTFOLIO */
+/* WHY US */
+/* PRICING */
+/* FAQ */
+/* CONTACT */
