@@ -1,0 +1,93 @@
+
+.body{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.jus-cont-btwn{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.logo  a, .navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px 0 10px 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;    
+}
+.navbar ul li a{
+    color: #36343a;
+}
+@media (max-width:991px){
+    .navi{
+        background-color:#009970 ;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .navbar ul{
+        display: none;
+    }
+}
+@media (min-width:992px){
+    .text{
+        width: 20%;
+    }
+    .navbar{
+        width: 80%;
+    }
+    .navi{
+        background-color:#009970 ;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .icofont-navigation-menu{
+        display: none;
+    }
+    .started{
+        display: inline-block;
+        padding: 10px 10px;
+        border-radius: 50px;
+        color: #fff;
+        transition: 0.5s;
+    }
+    .started:hover{
+        color: #fff;
+        background-color: #00b383;
+    } 
+}
+
+/* HEADER  */
+/* ABOUT */
+/* WHY US  */
+/* SERVICES */
+/* TESTIMONIAL */
+/* TEAM  */
+/* CONTACT  */
+/* FOOTER  */
