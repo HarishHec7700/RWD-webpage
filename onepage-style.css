@@ -1,0 +1,233 @@
+
+/* Home Page */
+@media(min-width:240px){
+    *{
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+    }
+    /* .d-flex{
+        display: flex;
+    } */
+    .jus-con-btwn{
+        justify-content: space-between;
+    }
+    .container{
+        width: 85%;
+        margin: auto;
+    }
+    .navi-bar{
+        width: 100%;
+        background-color: #fff; 
+        position: sticky;   
+        padding: 1rem;
+        border-bottom: rgba(192, 189, 189, 0.37) 1px solid;
+    }
+    .logo{
+        width: 20%;
+        font-size: 1.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .logo h1{
+        font-family: 'Poppins', sans-serif;
+    }
+    .navi{
+        width: 70%;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav a{
+        text-decoration: none;
+        /* color:#2487ce; */
+        color: #16507b;
+        transition: 0.3s;
+    }
+    .navi li{
+        display: flex;
+        align-items: center;
+    }
+    .navi a:hover{
+        color:#2487ce;
+    }
+    .nav-list{
+        list-style: none;
+        display: none;
+    }
+    #nav-diff{
+        display: inline-block;
+        background-color: #2487ce;
+        color: #fff;
+        padding: 0.7rem;
+        border-radius: 4px;
+    }
+    #nav-diff{
+        background: #3194db;
+        color: #fff;
+    }
+    .bar{
+        align-items: center;
+        display: flex;
+        color: #16507b;
+    }
+
+    
+}
+/* Media Query For Tablets  */
+@media(min-width:560px){
+    *{
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+    }
+    .d-flex{
+        display: flex;
+    }
+    .jus-con-btwn{
+        justify-content: space-between;
+    }
+    .container{
+        width: 85%;
+        margin: auto;
+    }
+    .navi-bar{
+        width: 100%;
+        background-color: #fff; 
+        position: sticky;   
+        padding: 1rem;
+        border-bottom: rgba(192, 189, 189, 0.37) 1px solid;
+    }
+    .logo{
+        width: 20%;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .logo h1{
+        font-family: 'Poppins', sans-serif;
+    }
+    .navi{
+        width: 80%;
+    }
+    .nav a{
+        text-decoration: none;
+        /* color:#2487ce; */
+        color: #16507b;
+        transition: 0.3s;
+    }
+    .navi li{
+        display: flex;
+        align-items: center;
+    }
+    .navi a:hover{
+        color:#2487ce;
+    }
+    .nav-list{
+        list-style: none;
+        display: none;
+    }
+    #nav-diff{
+        display: inline-block;
+        background-color: #2487ce;
+        color: #fff;
+        padding: 0.7rem;
+        border-radius: 4px;
+    }
+    #nav-diff{
+        background: #3194db;
+        color: #fff;
+    }
+    .bar{
+        align-items: center;
+        display: flex;
+        color: #16507b;
+    }
+    
+    
+    
+    
+    
+    }
+
+/* Home Page */
+/* Larger Devices like pc and Lappy */
+    @media(min-width:990px){
+        *{
+            box-sizing: border-box;
+            font-family: "Open Sans", sans-serif;
+        }
+        .d-flex{
+            display: flex;
+        }
+        .jus-con-btwn{
+            justify-content: space-between;
+        }
+        .container{
+            width: 85%;
+            margin: auto;
+        }
+        .navi-bar{
+            width: 100%;
+            background-color: #fff; 
+            position: sticky;   
+            padding: 1rem;
+            border-bottom: rgba(192, 189, 189, 0.37) 1px solid;
+        }
+        .logo{
+            width: 20%;
+            font-size: 2rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        .logo h1{
+            font-family: 'Poppins', sans-serif;
+        }
+        .navi{
+            width: 80%;
+            display: block;
+        }
+        .nav a{
+            text-decoration: none;
+            /* color:#2487ce; */
+            color: #16507b;
+            transition: 0.3s;
+        }
+        .navi li{
+            display: flex;
+            align-items: center;
+        }
+        .navi a:hover{
+            color:#2487ce;
+        }
+        .nav-list{
+            list-style: none;
+        }
+        #nav-diff{
+            display: inline-block;
+            background-color: #2487ce;
+            color: #fff;
+            padding: 0.7rem;
+            border-radius: 4px;
+        }
+        #nav-diff{
+            background: #3194db;
+            color: #fff;
+        }
+        .bar{
+            display: none;
+        }
+        /* Home Page */
+        
+        .home{
+            width: 100%;
+            background-image: src("/Harish/assets/hero-bg.jpg");
+        }
+        .home-cont{
+            text-align: center;
+            width: 58%;
+            align-self: center;
+        }
+        .home-cont h1{
+            font-size: 2.5rem;
+            line-height: 1rem;
+            font-weight: 700;
+        }
+
+
+        }    
