@@ -447,7 +447,183 @@
         transform: scale(1.15);
     }
 
+    /* Testimonial Page */
+    
+    .test{
+        width: 100%;
+    }
+    .test-cont{
+        text-align: center;
+        padding-bottom: 2rem ;
+        font-family: "Open Sans", sans-serif;
+    }
+    .test-cont h2{
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0;
+        color: #124265;
+    }
+    .test-cont p{
+        margin-bottom: 0;
+        font-size: 0.9rem;
+        color: #919191;
+    }
+    .test-flex{
+        width: 100%;
+    }
+    .test-flex-items{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .test-quotes{
+        font-style: italic;
+        margin: 0 0.9rem 0.9rem 0.9rem;
+        padding: 1.2rem;
+        background: #f3f9fd;
+        position: relative;
+        margin-bottom: 2.2rem;
+        border-radius: 6px;
+    }
+    .test-img-con{
+        text-align: center;
 
+    }
+    .test-img{
+        width: 5.62rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+    .test-img-con h4{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0.6rem 0 0.3rem 0;
+        color: #111;
+    }
+    .test-img-con p{
+        font-size: 0.9rem;
+        color: #999;
+        margin: 0;
+    }
+
+        /* Services Page */
+    
+        .service{
+            width:100%;
+            background-color:#f8fbfe;
+            padding-bottom: 5rem;
+        }
+        .service-cont{
+            text-align: center;
+            padding-bottom: 1.8rem;
+        }
+        .service-cont h2{
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 1.3rem;
+            padding-bottom: 0;
+            color: #124265;
+        }
+        .service-cont p{
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #919191;
+        }
+        .service-flex{
+            /* display: flex; */
+            flex-wrap: wrap;
+            gap: 1%;
+            justify-content: space-between;
+        }
+        .service-flex-item{
+            width: 100%;
+            text-align: center;
+            padding: 70px 20px 80px 20px;
+            transition: all ease-in-out 0.3s;
+            background: #fff;
+            margin-bottom: 1rem;
+        }
+        .service-flex-item h4{
+            font-weight: 600;
+            font-size: 1.3rem;
+            color: #124265;
+            font-family: "Raleway", sans-serif;
+            margin: 0.7rem 0 0.9rem 0; 
+            transition: ease-in-out 0.3s;
+        }
+        .service-flex-item h4 a{
+            text-decoration: none;
+            color: #124265;
+        }
+        .service-flex-item p{
+            line-height: 1.3rem;
+            font-size: 0.9rem;
+            margin-bottom: 0;
+            color: #444444;
+        
+        }
+        .service-icon{
+            width: 5rem;
+            height: 5rem;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            align-items: center;
+            border-radius: 50%;
+            margin: auto;
+        }
+        .service-icn{
+            font-size: 2rem;
+        }
+    
+    /* Call to Action Page */
+
+    .action{
+        width: 100%;
+        background-color: #2487ce;
+        padding: 3.75rem 0;
+        margin-bottom: 5rem
+    }
+    .action-cont{
+        text-align: center;
+    }
+    .action-head{
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+        margin-bottom: 0.5rem;
+    }
+    .action-p{
+        color: #fff;
+        margin-bottom: 1rem;
+        line-height: 2;
+    }
+    .action-butt{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 0.8rem 2.2rem;
+        border-radius: 5px;
+        transition: 0.5s;
+        margin-top: 0.6rem;
+        border: 2px solid #fff;
+        color: #fff;
+        text-decoration: none;
+    }
+    .action-butt:hover{
+        color:#2487ce;
+        background-color:#fff ;
+    }    
+
+        
 
 
 }
@@ -895,6 +1071,183 @@
         transform: scale(1.15);
     }
 
+    /* Testimonial Page */
+
+    .test{
+        width: 100%;
+    }
+    .test-cont{
+        text-align: center;
+        padding-bottom: 2rem ;
+        font-family: "Open Sans", sans-serif;
+    }
+    .test-cont h2{
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0;
+        color: #124265;
+    }
+    .test-cont p{
+        margin-bottom: 0;
+        font-size: 0.9rem;
+        color: #919191;
+    }
+    .test-flex{
+        width: 100%;
+    }
+    .test-flex-items{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .test-quotes{
+        font-style: italic;
+        margin: 0 0.9rem 0.9rem 0.9rem;
+        padding: 1.2rem;
+        background: #f3f9fd;
+        position: relative;
+        margin-bottom: 2.2rem;
+        border-radius: 6px;
+    }
+    .test-img-con{
+        text-align: center;
+
+    }
+    .test-img{
+        width: 5.62rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+    .test-img-con h4{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0.6rem 0 0.3rem 0;
+        color: #111;
+    }
+    .test-img-con p{
+        font-size: 0.9rem;
+        color: #999;
+        margin: 0;
+    }
+
+        /* Services Page */
+    
+        .service{
+            width:100%;
+            background-color:#f8fbfe;
+            padding-bottom: 5rem;
+        }
+        .service-cont{
+            text-align: center;
+            padding-bottom: 1.8rem;
+        }
+        .service-cont h2{
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 1.3rem;
+            padding-bottom: 0;
+            color: #124265;
+        }
+        .service-cont p{
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #919191;
+        }
+        .service-flex{
+            /* display: flex; */
+            flex-wrap: wrap;
+            gap: 1%;
+            justify-content: space-between;
+        }
+        .service-flex-item{
+            width: 100%;
+            text-align: center;
+            padding: 70px 20px 80px 20px;
+            transition: all ease-in-out 0.3s;
+            background: #fff;
+            margin-bottom: 1rem;
+        }
+        .service-flex-item h4{
+            font-weight: 600;
+            font-size: 1.3rem;
+            color: #124265;
+            font-family: "Raleway", sans-serif;
+            margin: 0.7rem 0 0.9rem 0; 
+            transition: ease-in-out 0.3s;
+        }
+        .service-flex-item h4 a{
+            text-decoration: none;
+            color: #124265;
+        }
+        .service-flex-item p{
+            line-height: 1.3rem;
+            font-size: 0.9rem;
+            margin-bottom: 0;
+            color: #444444;
+        
+        }
+        .service-icon{
+            width: 5rem;
+            height: 5rem;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            align-items: center;
+            border-radius: 50%;
+            margin: auto;
+        }
+        .service-icn{
+            font-size: 2rem;
+        }
+
+    /* Call to Action Page */
+
+    .action{
+        width: 100%;
+        background-color: #2487ce;
+        padding: 3.75rem 0;
+        margin-bottom: 5rem
+    }
+    .action-cont{
+        text-align: center;
+    }
+    .action-head{
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+        margin-bottom: 0.5rem;
+    }
+    .action-p{
+        color: #fff;
+        margin-bottom: 1rem;
+        line-height: 2;
+    }
+    .action-butt{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 0.8rem 2.2rem;
+        border-radius: 5px;
+        transition: 0.5s;
+        margin-top: 0.6rem;
+        border: 2px solid #fff;
+        color: #fff;
+        text-decoration: none;
+    }
+    .action-butt:hover{
+        color:#2487ce;
+        background-color:#fff ;
+    }        
+    
+
 
 
 }
@@ -1012,7 +1365,77 @@
         margin: 0;
     }
 
-
+    /* Services Page */
+    
+    .service{
+        width:100%;
+        background-color:#f8fbfe;
+        padding-bottom: 5rem;
+    }
+    .service-cont{
+        text-align: center;
+        padding-bottom: 1.8rem;
+    }
+    .service-cont h2{
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1.3rem;
+        padding-bottom: 0;
+        color: #124265;
+    }
+    .service-cont p{
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #919191;
+    }
+    .service-flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1%;
+        justify-content: space-between;
+    }
+    .service-flex-item{
+        width: 49%;
+        text-align: center;
+        padding: 70px 20px 80px 20px;
+        transition: all ease-in-out 0.3s;
+        background: #fff;
+        margin-bottom: 1rem;
+    }
+    .service-flex-item h4{
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: #124265;
+        font-family: "Raleway", sans-serif;
+        margin: 0.7rem 0 0.9rem 0; 
+        transition: ease-in-out 0.3s;
+    }
+    .service-flex-item h4 a{
+        text-decoration: none;
+        color: #124265;
+    }
+    .service-flex-item p{
+        line-height: 1.3rem;
+        font-size: 0.9rem;
+        margin-bottom: 0;
+        color: #444444;
+    
+    }
+    .service-icon{
+        width: 5rem;
+        height: 5rem;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        align-items: center;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .service-icn{
+        font-size: 2rem;
+    }
 
 
 
@@ -1570,11 +1993,119 @@
         color: #444444;
     
     }
+    .service-icon{
+        width: 5rem;
+        height: 5rem;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        align-items: center;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .service-icn{
+        font-size: 2rem;
+    }
+    .service-flex-item h4 a{
+        text-decoration: none;
+        color: #124265;
+    }
+    
+    .service-flex-item:hover #icon-blue{
+        color: #fff;
+        background-color:#47aeff  ;
+    }
+    .service-flex-item:hover .service-icn{
+        color: #fff;
+        /* background-color:#47aeff  ; */
+    }
+    .service-flex-item:hover #icon-skin{
+        color: #fff;
+        background-color:#ffa76e ;
+    }
+    #icon-pink:hover{
+        color: #fff;
+        background-color: #e80368;
+
+    }
+    #icon-yellow:hover{
+        background-color: #ffbb2c;
+        color: #fff;
+    }
+    #icon-orange:hover{
+        background-color: #ff5828 ;
+        color: #fff;
+    }
+    #icon-paleblue:hover{
+        background-color: #11dbcf ;
+        color: #fff;
+    }
+
+    /* Call to Action Page */
+
+    .action{
+        width: 100%;
+        background-color: #2487ce;
+        padding: 3.75rem 0;
+        margin-bottom: 5rem
+    }
+    .action-cont{
+        text-align: center;
+    }
+    .action-head{
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+        margin-bottom: 0.5rem;
+    }
+    .action-p{
+        color: #fff;
+        margin-bottom: 1rem;
+        line-height: 2;
+    }
+    .action-butt{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 0.8rem 2.2rem;
+        border-radius: 5px;
+        transition: 0.5s;
+        margin-top: 0.6rem;
+        border: 2px solid #fff;
+        color: #fff;
+        text-decoration: none;
+    }
+    .action-butt:hover{
+        color:#2487ce;
+        background-color:#fff ;
+    }
 
 
+    /* Portfolio Page */
 
-
- 
+    .portfolio{
+        width: 100%;
+    }
+    .port-cont{
+        text-align: center;
+    }
+    .port-cont h3{
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1.3rem;
+        padding-bottom: 0;
+        color: #124265;
+      
+    }
+    .port-cont p{
+        font-size: ;
+    }
+    
 
 
 
