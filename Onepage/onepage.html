@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="onepage-style.css">
     <!-- <link rel="stylesheet" href="onepage-style560p.css"> -->
     <!-- <link rel="stylesheet" href="onepage-style240p.css"> -->
@@ -280,33 +280,45 @@
             </div>
             <div class="service-flex d-flex">
                 <div class="service-flex-item">
-                    <iconify-icon icon="icon-park-outline:dribble" style="color: #47aeff;"></iconify-icon>
-                    <h4>Lorem Ispum</h4>
+                    <div class="service-icon" id="icon-blue">
+                        <iconify-icon icon="icon-park-outline:dribble" class="service-icn" style="color: #47aeff;"></iconify-icon>
+                    </div>
+                    <h4><a href="#"> Lorem Ispum</a></h4>
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                 </div>
                 <div class="service-flex-item">
-                    <iconify-icon icon="fluent-emoji-high-contrast:page-facing-up" style="color: #ffa76e;"></iconify-icon>
-                    <h4>Sed Perspitciatis</h4>
+                    <div class="service-icon">
+                        <iconify-icon icon="fluent-emoji-high-contrast:page-facing-up" class="service-icn" id="icon-skin" style="color: #ffa76e;"></iconify-icon>
+                    </div>
+                    <h4><a href="#"> Sed Perspitciatis</a></h4>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                 </div>
                 <div class="service-flex-item">
-                    <iconify-icon icon="mdi:speedometer" style="color: #e80368;"></iconify-icon>
-                    <h4>Magni Dolores</h4>
+                    <div class="service-icon">
+                        <iconify-icon icon="mdi:speedometer" class="service-icn" id="icon-pink" style="color: #e80368;"></iconify-icon>
+                    </div>
+                    <h4><a href="#"> Magni Dolores</a></h4>
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                 </div>
                 <div class="service-flex-item">
-                    <iconify-icon icon="charm:stack" style="color: #ffbb2c;"></iconify-icon>
-                    <h4>Nemo Enim</h4>
+                    <div class="service-icon">
+                        <iconify-icon icon="charm:stack" class="service-icn" id="icon-yellow" style="color: #ffbb2c;"></iconify-icon>
+                    </div>
+                    <h4><a href="#"> Nemo Enim</a></h4>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                 </div>
                 <div class="service-flex-item">
-                    <iconify-icon icon="ri:slideshow-3-line" style="color: #ff5828;"></iconify-icon>
-                    <h4>Dele Cardo</h4>
+                    <div class="service-icon">
+                        <iconify-icon icon="ri:slideshow-3-line" class="service-icn" id="icon-orange" style="color: #ff5828;"></iconify-icon>
+                    </div>
+                    <h4><a href="#"> Dele Cardo</a></h4>
                     <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
                 </div>
                 <div class="service-flex-item">
-                    <iconify-icon icon="bx:arch" style="color: #11dbcf;"></iconify-icon>
-                    <h4>Divera Don</h4>
+                    <div class="service-icon">
+                        <iconify-icon icon="bx:arch" class="service-icn" id="icon-paleblue" style="color: #11dbcf;"></iconify-icon>
+                    </div>
+                    <h4><a href="#"> Divera Don</a></h4>
                     <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
                 </div>
 
@@ -314,8 +326,53 @@
         </div>
     </section>
 
+    <!-- Call To Action -->
 
+    <section class="action">
+        <div class="container">
+            <div class="action-cont">
+                <h3 class="action-head">Call To Action</h3>
+                <p class="action-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a class="action-butt" href="#">
+                    Call To Action
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <!-- Portfolio Page -->
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="port-cont">
+                <h3>Portfolio</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo fugiat obcaecati vel eos ab. Earum distinctio, eveniet soluta vel veritatis illum magni saepe officia ipsam</p>
+            </div>
+            <div class="port-cont-flex d-flex">
+                <div class="port-tabs" id="tabs-diff">ALL</div>
+                <div class="port-tabs">APP</div>
+                <div class="port-tabs">CARD</div>
+                <div class="port-tabs">WEB</div>
+            </div>
+            <div class="port-img-flex d-flex">
+                <div class="port-img-col1">
+                    <img src="" alt="" class="col-1">
+                    <img src="" alt="" class="col-1">
+                </div>
+                <div class="port-img-col2">
+                    <img src="" alt="" class="col-2">
+                    <img src="" alt="" class="col-2" id="col2-diff">
+                    <img src="" alt="" class="col-2">
+                </div>
+                <div class="port-img-col2">
+                    <img src="" alt="" class="col-2">
+                    <img src="" alt="" class="col-2">
+                    <img src="" alt="" class="col-2">
+                    <img src="" alt="" class="col-2">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
